@@ -13,7 +13,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class ApiUtils {
 
     private final static String BASE_URL = "https://api.darksky.net/forecast/";
-    private final static String API_KEY = "6bc3840ec0082f06ab5a04dc8a00459f";
+    //TODO: Put your appy key there
+    private final static String API_KEY = "YOUR_API_KEY_HERE";
     /**
      * This is a Logging interceptor. It incercepts all the traffic from our client and logs the body for easier debugging
      */
